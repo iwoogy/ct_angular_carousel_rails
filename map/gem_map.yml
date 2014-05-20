@@ -1,0 +1,37 @@
+---
+module:
+  name: "angular-carousel"
+uis:
+  - name: rn-carousel
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-infinite
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-index
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-indicator
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-buffered
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-swipe
+    dependencies:
+      packages:
+        - name: angular-mobile
+  - name: rn-carousel-control
+    dependencies:
+      packages:
+        - name: angular-mobile
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
